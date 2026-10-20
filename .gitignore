@@ -1,0 +1,40 @@
+# ── Build artifacts ──────────────────────────────────────────────
+build/
+dist/
+dist_debug/
+installer/
+output/
+logs/
+
+# ── Python ───────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ── Temp / downloads ─────────────────────────────────────────────
+dl/
+dl2/
+*.log
+tools/_fix*.py
+
+# ── Vendored third-party tools (fetch with tools/download_tools.py)
+tools/jadx/
+tools/dex2jar/
+tools/jd-cli.jar
+tools/dex-tools-v2.4.zip
+tools/jd-cli-1.2.0-dist.tar.gz
+
+# ── Branding artwork (copyrighted — add your own)
+Lain.jfif
+ii'm like antoher.jfif
+assets/
+
+# ── OS / editor ──────────────────────────────────────────────────
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
